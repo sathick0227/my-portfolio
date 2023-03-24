@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    gap:40px;
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+.navbar li{
+ margin-top: 5px;
+ transition: 0.5s ease;
+ cursor: pointer;
+}
+
+.navbar li:hover{
+    margin-top: 0px;
+    transition: 0.5s ease;
+    border-bottom: 4px solid  ;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg,#8d53ff,#ca6be6);
+}
+ .active{
+    border-bottom: 4px solid  ;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg,#8d53ff,#ca6be6);
+}
